@@ -1,0 +1,178 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+   .promo {
+      padding: 21px 10px 93px 5px;
+   }
+   .container {
+      width: 100%;
+   }
+   .advantage {
+      &__icon {
+         padding: 0 30px;
+         span {
+            font-size: 16px;
+         }
+      }
+   }
+   .consultation {
+      padding: 100px 10px 92px 10px;
+   }
+
+   .caruosel {
+      &__inner {
+         img {
+            width: 100%;
+         }
+      }
+   }
+   .catalog {
+      &-item {
+         margin: 0 35px 20px 35px;
+      }
+   }
+}
+
+@media (max-width: 767px) {
+   .promo {
+      &__wrapper {
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+      }
+   }
+   .header {
+      &__official {
+         font-size: 10px;
+         span {
+            font-size: 15px;
+         }
+      }
+      &__phone {
+         font-size: 17px;
+      }
+   }
+   .advantage {
+      &__icons {
+         display: flex;
+         flex-direction: column;
+         padding: 0 90px;
+      }
+   }
+   .catalog {
+      &-item {
+         margin: 10px auto;
+      }
+      &__tab {
+         width: 160px;
+         font-size: 15px;
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__official {
+         display: none;
+      }
+      &__contacts {
+         margin-top: 10px;
+      }
+   }
+   .promo {
+      &__header {
+         margin-top: 35px;
+         font-size: 27px;
+         line-height: 27px;
+      }
+      &__subheader {
+         font-size: 22px;
+         line-height: 22px;
+      }
+      &__icons {
+         margin-top: 35px;
+         min-width: 320px;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+      &__icon {
+         margin-top: 15px;
+         img {
+            margin-bottom: 7px;
+         }
+      }
+   }
+   .advantage {
+      &__icons {
+         margin-top: 30px;
+         padding: 5px;
+      }
+      &__icon {
+         img {
+            margin: 15px auto;
+         }
+         span {
+            margin-bottom: 10px;
+         }
+      }
+   }
+   .button {
+      &__main {
+         margin-top: 35px;
+      }
+   }
+   .feed-form {
+      margin: 36px auto 0 auto;
+   }
+   .title {
+      &_left {
+         font-size: 22px;
+         line-height: 22px;
+         text-align: center;
+      }
+   }
+   .consultation {
+      &__discr {
+         text-align: center;
+         font-size: 18px;
+         line-height: 18px;
+      }
+   }
+   .catalog {
+      &__tabs {
+         display: flex;
+         flex-direction: column;
+      }
+      &__tab {
+         margin-bottom: 10px;
+         width: 220px;
+      }
+      &__content {
+         margin-top: 20px;
+      }
+   }
+   .rewiews {
+      &__item {
+         display: flex;
+         flex-direction: column;
+         img {
+            display: block;
+            margin: 0 auto;
+         }
+      }
+      &__text {
+         text-align: center;
+      }
+   }
+   .footer {
+      &__info {
+         width: 320px;
+         padding: 50px 0;
+      }
+   }
+}

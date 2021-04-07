@@ -1,0 +1,41 @@
+.rewiews {
+   padding-bottom: 70px;
+   .title {
+      padding-bottom: 70px;
+   }
+   hr {
+      width: 99%;
+      margin: 50px 0;
+      border-bottom: 0;
+   }
+   &__item {
+      display: flex;
+   }
+   &__img {
+      width: 169px;
+      height: 169px;
+   }
+   &__text {
+      padding: 0 62px;
+   }
+   &__subtitle {
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 700;
+      color: $second-color;
+   }
+   &__sub {
+      padding-top: 10px;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 300;
+      color: #646464;
+   }
+   &__descr {
+      padding-top: 19px;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 300;
+      color: $second-color;
+   }
+}
