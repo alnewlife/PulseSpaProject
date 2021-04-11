@@ -233,5 +233,13 @@
     "ws": "^7.4.4",
     "yeast": "^0.1.2",
     "yallist": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alnewlife/PulseSpaProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alnewlife/PulseSpaProject/issues"
+  },
+  "homepage": "https://github.com/alnewlife/PulseSpaProject#readme"
 }

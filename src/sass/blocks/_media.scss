@@ -175,4 +175,29 @@
          padding: 50px 0;
       }
    }
+   #consultation,
+   #order {
+      width: 280px;
+      padding: 38px 30px 20px 30px;
+      .modal {
+         &__subtitle {
+            font-size: 13px;
+            line-height: 13px;
+         }
+         &__descr {
+            font-size: 11px;
+            line-height: 11px;
+         }
+         &__close {
+            right: -23px;
+            font-size: 35px;
+         }
+      }
+      .feed-form {
+         width: 200px;
+         .button_submit {
+            font-size: 14px;
+         }
+      }
+   }
 }
