@@ -38,6 +38,15 @@
       color: $second-color;
       text-align: center;
    }
+   .error {
+      border: 1px solid red;
+   }
+   label.error {
+      border: none;
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 12px;
+   }
 }
 
 #consultation,

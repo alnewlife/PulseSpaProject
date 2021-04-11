@@ -154,29 +154,31 @@
          margin-left: 20px;
          transform: translateX(0%);
          transition: 0.5s all;
-         padding-right: 20px;
-         padding-left: 0;
-         margin-bottom: 0;
-         list-style-type: none;
          &_active {
             transform: translateX(-100%);
             margin-left: 0;
          }
-         li {
-            position: relative;
-            font-size: 14px;
-            line-height: 14px;
-            font-weight: 300;
-            color: #555555;
-            margin-bottom: 20px;
-            &::before {
-               content: "";
-               position: absolute;
-               width: 5px;
-               height: 5px;
-               background-color: $main-color;
-               left: -14px;
-               top: 7px;
+         ul {
+            padding-right: 20px;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style-type: none;
+            li {
+               position: relative;
+               font-size: 14px;
+               line-height: 14px;
+               font-weight: 300;
+               color: #555555;
+               margin-bottom: 20px;
+               &::before {
+                  content: "";
+                  position: absolute;
+                  width: 5px;
+                  height: 5px;
+                  background-color: $main-color;
+                  left: -14px;
+                  top: 7px;
+               }
             }
          }
       }

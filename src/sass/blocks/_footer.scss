@@ -1,6 +1,11 @@
 .footer {
    min-height: 630px;
    position: relative;
+   &__map {
+      iframe {
+         width: 100%;
+      }
+   }
    &__info {
       position: absolute;
       top: 0;
